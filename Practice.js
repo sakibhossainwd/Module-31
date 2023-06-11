@@ -72,7 +72,8 @@ result`
 // solve-04
 const twoArray = (array1, array2) => {
     const combineArray = [...array1, ...array2];
-    return combineArray;
+    const maxNumber = Math.max(...combineArray);
+    return maxNumber;
 }
 const array1 = [1, 2, 3, 4, 5];
 const array2 = [6, 7, 8, 9, 10];
