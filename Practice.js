@@ -61,3 +61,14 @@ const elements = [2, 4, 6, 8];
 const result1 = squareElement(elements);
 console.log(result1);
 
+
+
+// Practice problem-04
+`Write an arrow function where it will do the following:
+a) It will take two array inputs
+b) Combine the two arrays and assign them in a new array
+c) Find the maximum number from the new array and return the
+result`
+// solve-04
+
+
