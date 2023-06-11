@@ -59,7 +59,7 @@ const squareElement = (elements) => {
 }
 const elements = [2, 4, 6, 8];
 const result1 = squareElement(elements);
-console.log(result1);
+// console.log(result1);
 
 
 
@@ -70,5 +70,12 @@ b) Combine the two arrays and assign them in a new array
 c) Find the maximum number from the new array and return the
 result`
 // solve-04
-
+const twoArray = (array1, array2) => {
+    const combineArray = [...array1, ...array2];
+    return combineArray;
+}
+const array1 = [1, 2, 3, 4, 5];
+const array2 = [6, 7, 8, 9, 10];
+const result3 = twoArray(array1, array2);
+console.log(result3); 
 
